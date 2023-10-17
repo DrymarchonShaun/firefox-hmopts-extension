@@ -1,19 +1,19 @@
 {
   "manifest_version": 2,
-  "name": "NixOS Options Search Engine",
-  "description": "Adds NixOS options search engine",
+  "name": "Home Manager Options Search Engine",
+  "description": "Adds Home Manager options search engine",
   "version": "1.0",
   "author": "drymarchon",
-  "homepage_url": "https://github.com/drymarchonshaun/firefox-nixopts-extension",
+  "homepage_url": "https://github.com/drymarchonshaun/firefox-hmopts-extension",
   "developer": {
     "name": "drymarchon",
     "url": "https://github.com/drymarchonshaun"
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "NixOS Packages",
-      "search_url": "https://search.nixos.org/options?query={searchTerms}",
-      "keyword": "@nixopts",
+      "name": "Home Manager Options",
+      "search_url": "https://mipmip.github.io/home-manager-option-search/?query={searchTerms}",
+      "keyword": "@hmopts",
       "favicon_url": "https://nixos.org/favicon.ico",
       "is_default": false,
       "encoding": "UTF-8"
