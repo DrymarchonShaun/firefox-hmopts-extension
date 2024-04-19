@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Home Manager Options Search Engine",
   "description": "Adds Home Manager options search engine",
-  "version": "1.0",
+  "version": "1.1",
   "author": "drymarchon",
   "homepage_url": "https://github.com/drymarchonshaun/firefox-hmopts-extension",
   "developer": {
@@ -12,7 +12,7 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "Home Manager Options",
-      "search_url": "https://https://home-manager-options.extranix.com/?query={searchTerms}&release=release-23.11",
+      "search_url": "https://home-manager-options.extranix.com/?query={searchTerms}&release=release-23.11",
       "keyword": "@hmopts",
       "favicon_url": "https://nixos.org/favicon.ico",
       "is_default": false,
